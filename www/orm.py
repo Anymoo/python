@@ -8,7 +8,7 @@ def log(sql,args=()):
 async def create_pool(loop,**kw):
     logging.info('create database connection pool...')
     global __pool
-    __pool=await aiomysql.create_pool(     #这是新加的，用做测试之一
+    __pool=await aiomysql.create_pool(
         host=kw.get('host','localhost'),
         port=kw.get('port',3360),
         user=kw['user'],
