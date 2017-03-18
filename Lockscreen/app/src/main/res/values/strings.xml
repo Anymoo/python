@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lockscreen</string>
+    <string name="sample_device_admin">一键锁屏</string>
+    <string name="sample_device_admin_description">开启后才能一键锁屏</string>
+</resources>
